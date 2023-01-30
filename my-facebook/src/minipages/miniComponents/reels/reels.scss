@@ -1,0 +1,12 @@
+.reel-container{
+    ::-webkit-scrollbar{
+        display: none;
+    }
+    .reel{
+        width: 8rem;
+        height: 15rem;
+        background-color: rgb(125, 125, 131);
+        border-radius: 10px;
+        
+    }
+}

@@ -1,0 +1,132 @@
+.posted{
+    width: 60%;
+    height: 80vh;
+    background-color: #fff;
+    margin-top: 3rem;
+    padding: 15px;
+    border-radius: 10px;
+
+
+    .nav{
+        
+
+        ul{
+
+            display: flex;
+            justify-content: space-between;
+
+            li {
+                list-style: none;
+                font-size: 14px;
+                font-weight: bold;
+                color: rgb(59, 59, 59);
+            }
+            .username{
+                display: flex;
+                 
+                img{
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    padding-right: 10px ;
+                }
+            }
+        }
+        .options{
+            color: rgb(59, 59, 59);
+            font-size: 25px;
+
+            .close{
+                margin-left: 10px;
+            }
+        }
+    }
+
+
+    .imagepost{
+        width: 95%;
+        height: 63vh;
+
+        .description{
+            margin: 10px 0 10px 0; 
+
+        }
+        .image{
+            img{
+                width: 100%;
+                height: 35rem;
+                object-fit: cover;
+                margin-left: .7rem;
+            }
+        }
+    }
+
+    .likes{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+         
+        .icon{
+            font-size: 20px;
+        }
+    }
+
+    .footernav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .like{
+            width: 100px;
+            height: 20px;
+            padding: 10px;
+            font-weight: bold;
+            color: rgb(59, 59, 59);
+            cursor: pointer;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+
+            &:hover{
+                background-color: rgba(110, 109, 109, 0.404);
+            }
+        }
+        .comment{
+            width: 100px;
+            height: 20px;
+            padding: 10px;
+            font-weight: bold;
+            color: rgb(59, 59, 59);
+            cursor: pointer;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &:hover{
+                background-color: rgba(110, 109, 109, 0.404);
+            }
+        }
+        .share{
+            width: 100px;
+            height: 20px;
+            padding: 10px;
+            font-weight: bold;
+            color: rgb(59, 59, 59);
+            cursor: pointer;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &:hover{
+                background-color: rgba(110, 109, 109, 0.404);
+            }
+        }
+
+    }
+}

@@ -1,0 +1,119 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #f0e2f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .items{
+        display: flex;
+        gap: 10rem;
+        .content{
+            flex: 2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            .facebook{
+                color: #1877f2 ;
+                font-size: x-large;
+                font-size: 4rem;
+                font-weight: 770;
+                font-family:  sans-serif;
+                
+            }
+            p{
+                font-size: 2rem;
+                font-weight: 200;
+                
+
+                
+            }
+        }
+
+        .form{
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            form{
+                width:  27rem;
+                min-height: 23rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                background-color: rgb(255, 255, 255);
+                padding: 10px;
+                border-radius: 10px;
+                -webkit-box-shadow: 10px 11px 11px -3px rgba(143,141,143,0.54);
+                -moz-box-shadow: 10px 11px 11px -3px rgba(143,141,143,0.54);
+                 box-shadow: 10px 11px 11px -3px rgba(143,141,143,0.54);
+
+
+                input{
+                    margin-bottom: 10px;
+                    width: 100%;
+                    height: 35px;
+                    border: 1px solid #f0e2f5;
+                    border-radius: 5px;
+
+                    &:hover{
+                        border: 1px solid #1A6ED8;
+                    }
+                }
+
+                .login{
+                    width: 100%;
+                    height: 36px;
+                    background-color: #1A6ED8;
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: #fff;
+                    border: 1px solid #1A6ED8;
+                    border-radius: 5px;
+                    cursor: pointer;
+                }
+
+                a{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: #1A6ED8;
+                    text-decoration: none;
+                    margin-top: 4px;
+
+                }
+                
+
+                .account{
+                    width: 20rem;
+                    height: 42px;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #4CBB17;
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: #fff;
+                    border: 1px solid #4CBB17;
+                    border-radius: 5px;
+                    margin-top: 1rem ;
+                    cursor: pointer;
+
+                }
+            }
+        }
+
+        .brand{
+            margin-top: 15px;
+            font-size: 14px;
+            .create{
+                font-weight: 700;
+            }
+        }
+    }
+
+}

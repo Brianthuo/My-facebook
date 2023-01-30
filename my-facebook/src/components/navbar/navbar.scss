@@ -1,0 +1,110 @@
+.nav-container{
+    width: 100%;
+    height: 56px;
+    background-color: #fff;
+
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: .5rem 1rem;
+
+        .logo{
+            display: flex;
+            width: 310px;
+            justify-content: space-between;
+            h1 {
+                color: #1877f2 ;
+                font-size: x-large;
+                font-size: 2rem;
+                font-weight: 770;
+                font-family:  sans-serif;
+            }
+
+            input{
+                width: 150px;
+                height: 2rem;
+                border-radius: 5px;
+                background-color: #f0e2f5 ;
+                border: none;
+            }
+            input[type=text]{
+                padding-left: 10px;
+            }
+        }
+
+        .icons{
+            width: 150px;
+            display: flex;
+            justify-content: space-between;
+            font-size: 28px;
+
+            ul{
+                display: flex;
+                list-style: none;
+                justify-content: space-between;
+                width: 150px;
+                cursor: pointer;
+
+                li{
+                    position: relative;
+                    color: rgba(102, 85, 102, 0.322);
+
+                    &::after{
+                        content: "";
+                        position: absolute;
+                        background-color: #1877f2;
+                        height: 3px;
+                        width: 0;
+                        left: -2rem;
+                        bottom: -9px;
+                        border-radius: 20px;
+                    }
+
+                    &:hover{
+                        color: #1877f2;
+                    }
+
+                    &:hover:after{
+                        width: 350%;
+                    }
+
+                   
+                }
+            }
+
+        }
+
+        .other{
+            width: 300px;
+            display: flex;
+            justify-content: space-around;
+            font-size: 28px;
+
+            ul{
+                display: flex;
+                list-style: none;
+                justify-content: space-between;
+                width: 300px;
+                cursor: pointer;
+
+
+            }
+
+            button{
+                width: 150px;
+                height: 40px;
+                margin-right: 5px;
+                border: none;
+                border-radius: 25px;
+                background-color: #f0e2f5;
+                font-weight: 500;
+            }
+        }
+       
+        
+
+    }
+
+
+}
