@@ -3,7 +3,7 @@ import './profile.scss'
 
 const profile = () => {
   return (
-    <div>profile</div>
+    <div>hello</div>
   )
 }
 
