@@ -6,10 +6,13 @@ const cors = require("cors")
 app.use(cors())
 const bcrypt = require("bcryptjs")
 const jwt = require("jsonwebtoken")
+require("dotenv").config()
 
 const JWT_SECRET = "noafno4802390480235njdsnakjnikdifasnfinuisnfin75d4f87"
 
-const mongoUrl = "mongodb+srv://brian:BCT254@cluster0.ziezy4r.mongodb.net/?retryWrites=true&w=majority"
+const mongoUrl = process.env.mongoURL 
+
+
 
 mongoose.connect(mongoUrl, {
     useNewUrlparser: true
