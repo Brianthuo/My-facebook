@@ -6,6 +6,7 @@ import {TbGridDots} from 'react-icons/tb'
 import {BsMessenger} from 'react-icons/bs'
 import {GoBell} from 'react-icons/go'
 import {CgProfile} from 'react-icons/cg'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
@@ -18,7 +19,9 @@ const Navbar = () => {
 
                 <div className="icons">
                     <ul>
+                        <Link to='/homepage'>
                         <li> <AiFillHome className='home-icon'/></li>
+                        </Link>
                         <li><HiOutlineUserGroup className='groups'/></li>
                     </ul>
                 </div>
@@ -29,7 +32,9 @@ const Navbar = () => {
                         <li><TbGridDots/></li>
                         <li><BsMessenger/></li>
                         <li><GoBell/></li>
+                        <Link to='/profile'>
                         <li><CgProfile/></li>
+                        </Link>
                     </ul>
                 </div>
                 </div>
