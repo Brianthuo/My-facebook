@@ -9,11 +9,11 @@ import {CgProfile} from 'react-icons/cg'
 import {BiLogOut} from 'react-icons/bi'
 
 
-const Sidebar = ({name, logout}) => {
+const Sidebar = ({name, logout, surname}) => {
   return (
     <div className='sidebar'>
         <ul>
-            <li><p ><CgProfile className='icon' /><h3>{name}</h3></p></li>
+            <li><p ><CgProfile className='icon' /><h3>{name} {surname}</h3></p></li>
             <li><p ><FaUserFriends className='icon'/> <h3>Find friends</h3></p></li>
             <li><p ><AiFillCamera className='icon'/><h3>most recent</h3></p></li>
             <li><p ><BsFacebook className='icon'/> <h3>welcome</h3></p></li>

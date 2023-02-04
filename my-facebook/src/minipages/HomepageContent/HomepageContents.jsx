@@ -9,7 +9,7 @@ import Post from '../miniComponents/post/Post'
 import Shared from '../miniComponents/shared/Shared'
 
 
-const HomepageContents = () => {
+const HomepageContents = ({name, surname}) => {
 
   const [ section , setSection] = useState("Stories")
  
@@ -31,7 +31,7 @@ const HomepageContents = () => {
         </div>
        </div>
        <Post/>
-       <Shared/>
+       <Shared name={name} surname={surname}/>
        <Shared/>
        <Shared/>
        <Shared/>

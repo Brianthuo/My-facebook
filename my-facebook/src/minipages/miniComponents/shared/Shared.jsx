@@ -4,7 +4,7 @@ import {SlOptions} from 'react-icons/sl'
 import {AiOutlineClose, AiFillLike} from 'react-icons/ai'
 import profile from '../../../images/image 1.jpg'
 
-const Shared = () => {
+const Shared = ({name, surname}) => {
   return (
     <div className='posted'>
         <div className="nav">
@@ -13,7 +13,7 @@ const Shared = () => {
                     <div className="username">
                         <img src={profile} alt="" />
                         <div className="user">
-                            <li>Brian churchill thuo</li>
+                            <li>{name} {surname}</li>
                             <li>6d</li>
                         </div>
 

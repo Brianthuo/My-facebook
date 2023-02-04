@@ -46,8 +46,8 @@ const Homepage = () => {
         <Navbar />
     </div>
     <div className="ThisPageContent">
-        <Sidebar name={Info&&Info.userdata.firstname} logout={logOut}/>
-        <HomepageContents/>
+        <Sidebar name={Info&&Info.userdata.firstname} surname={Info&&Info.userdata.surname} logout={logOut}/>
+        <HomepageContents  name={Info&&Info.userdata.firstname} surname={Info&&Info.userdata.surname}/>
         <Friends/>
         
 
