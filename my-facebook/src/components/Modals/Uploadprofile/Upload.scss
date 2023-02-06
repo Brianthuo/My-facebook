@@ -1,0 +1,79 @@
+.uploadoverlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 100;
+
+    .uploadmodal{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        padding: 25px;
+        z-index: 100;
+        width: 26rem;
+        min-height: 30rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        border-radius: 15px;
+
+        .post-image{
+            width: 100%;
+            height: 2rem;
+            background-color: #1475cf;
+            border: 1px solid #1475cf;
+            border-radius: 5px;
+            color: #fff;
+        }
+
+        form{
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+           border: 2px dashed #1475cf;
+           height: 250px;
+           width: 250px;
+           cursor: pointer;
+           border-radius: 5px;
+
+           .cloud{
+            color: #1475cf;
+            width: 28px;
+            height: 28px;
+           }
+
+           img{
+            width: 190px;
+            height: 190px;
+            object-fit: cover;
+           }
+
+        }
+
+        .file{
+            margin: 10px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            border-radius: 5px;
+            background-color: #1475cf65;
+
+            .delete{
+                font-size: 20px;
+                color: rgb(255, 0, 0);
+            }
+        }
+
+
+    }
+
+}

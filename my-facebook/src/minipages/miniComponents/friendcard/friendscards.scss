@@ -1,0 +1,38 @@
+.card{
+    height: 17rem;
+    -webkit-box-shadow: 6px 11px 14px 1px rgba(189,179,189,1);
+    -moz-box-shadow: 6px 11px 14px 1px rgba(189,179,189,1);
+    box-shadow: 6px 11px 14px 1px rgba(189,179,189,1);
+    border-radius: 10px;
+    cursor: pointer;
+
+
+    img{
+        width: 11rem;
+        height: 12rem;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    button{
+        width: 11rem;
+        height: 2rem;
+        background-color: #1877f2;
+        border: 1px solid #1877f2;
+        border-radius: 5px;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        cursor: pointer;
+
+        &:hover{
+            background-color: #114992;
+        }
+
+        .icon{
+            font-size: 25px;
+        }
+    }
+
+}

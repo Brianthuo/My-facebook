@@ -29,7 +29,7 @@ const HomepageContents = ({name, surname}) => {
           { section==='reels' && <Reels/>} 
           { section==='rooms' && <Rooms/>}
         </div>
-       </div>
+        <div className="contents">
        <Post/>
        <Shared name={name} surname={surname}/>
        <Shared/>
@@ -37,6 +37,8 @@ const HomepageContents = ({name, surname}) => {
        <Shared/>
        <Shared/>
        <Shared/>
+        </div>
+       </div>
       </div>
     </div>
   )

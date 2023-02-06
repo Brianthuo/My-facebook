@@ -46,7 +46,7 @@ const Shared = ({name, surname}) => {
 
         <div className="footernav">
             <div className="like">like</div>
-            <div className="comment"> commnet</div>
+            <div className="comment"> comment</div>
             <div className="share">share</div>
         </div>
 

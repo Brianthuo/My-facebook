@@ -1,8 +1,6 @@
 .post{
-    width: 63%;
-    height: 8rem;
     background-color: #fff;
-    margin-top: 3rem;
+    margin-top: 0rem;
     border-radius: 10px;
     
     .post-items{
@@ -15,6 +13,7 @@
             height: 50px;
             border-radius: 50%;
             object-fit: cover;
+            cursor: pointer;
         }
 
         input{
@@ -48,6 +47,7 @@
             justify-content: center;
             align-items: center;
             gap: 4px;
+            cursor: pointer;
             
             &:hover{
                 background-color: #b6b1b87a;

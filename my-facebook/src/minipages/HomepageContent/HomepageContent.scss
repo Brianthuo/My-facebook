@@ -12,6 +12,7 @@
         flex-direction: column;
         padding-top: 2rem;
         overflow: auto;
+        gap: 2rem;
 
 
         ::-webkit-scrollbar{
@@ -23,6 +24,13 @@
             background-color: #fff;
             padding: 1rem;
             border-radius: 10px;
+
+            .contents{
+                margin-top: 4rem;
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+            }
             
 
             ul{

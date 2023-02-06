@@ -1,0 +1,33 @@
+.bio{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(211, 208, 208, 0.397);
+    padding: 1rem;
+
+
+    h1{
+        font-size: 28px;
+    }
+
+    .buttons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        button{
+            width: 80%;
+            height: 3rem;
+            background-color: rgba(168, 167, 167, 0.322);
+            border: 1px solid  rgba(128, 128, 128, 0.116);
+            border-radius: 5px;
+            margin-top: 1rem;
+            cursor: pointer;
+
+            &:hover{
+                background-color: rgba(168, 167, 167, 0.568); ;
+            }
+        }
+    }
+
+
+}

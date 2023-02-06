@@ -13,7 +13,6 @@ const Login = () => {
     const [firstname, setfirstname] = useState('')
     const [surname, setSurname] = useState('')
     const [date, setDate] = useState('')
-    const [success, setSuccess]= useState('')
 
 
 
@@ -101,7 +100,6 @@ const Login = () => {
                      />
 
                     <button className='login'type='submit' onClick={LoginhandleSubmit} >Log in</button> <br />
-                    <p>{success}</p>
                     <a href="/" >forgotten password</a>
                     <hr className='line' />
                     <a  href="1" className='account' onClick={openPortal}>Create account</a>

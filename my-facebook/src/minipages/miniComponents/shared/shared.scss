@@ -1,8 +1,6 @@
 .posted{
-    width: 60%;
     height: 80vh;
     background-color: #fff;
-    margin-top: 3rem;
     padding: 15px;
     border-radius: 10px;
 
@@ -30,15 +28,18 @@
                     border-radius: 50%;
                     object-fit: cover;
                     padding-right: 10px ;
+                    cursor: pointer;
                 }
             }
         }
         .options{
             color: rgb(59, 59, 59);
             font-size: 25px;
+            cursor: pointer;
 
             .close{
                 margin-left: 10px;
+                cursor: pointer;
             }
         }
     }

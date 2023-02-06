@@ -2,6 +2,8 @@ import React, {useState, useEffect} from 'react'
 import './profile.scss'
 import Navbar from '../../components/navbar/navbar'
 import Profiletab from '../../components/profiletab/profiletab'
+import Profilecontent from '../../components/Profilecontent/Profilecontent'
+import Profileinfo from '../../components/ProfileInfo/ProfileInfo'
 
 const Profile = () => {
 
@@ -39,6 +41,9 @@ const Profile = () => {
     </div>
     <div className="profile-container">
     <Profiletab name={Info&&Info.userdata.firstname} surname={Info&&Info.userdata.surname}/>
+    <Profilecontent/>
+    <Profileinfo/>
+
     
     </div>
 

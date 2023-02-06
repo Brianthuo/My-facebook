@@ -1,0 +1,19 @@
+.profilecontent{
+    width: 85%;
+    height: 35vh;
+    border: 2px solid #1877f2;
+    background-color: #fff;
+    border-radius: 15px;
+    margin-top: 1rem;
+    padding: 1rem;
+    overflow: auto;
+    
+    
+    .cards{
+        display: flex;
+        gap: 2rem;
+
+    }
+
+
+}
